@@ -10,6 +10,7 @@ const results = (shows) => {
             img.src = result.show.image.medium;
             resultBox.appendChild(img)
         }
+        resultBox.style.visibility = "visible";
      
     }
 
